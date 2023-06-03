@@ -1,6 +1,6 @@
 .header {
     background-color: #ffffff;
-    padding: 25px;
+    padding: 15px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 10px;
 
@@ -16,8 +16,44 @@
     font-weight: bold;
 }
 
-.options a {
-    margin-left: 10px;
-    text-decoration: none;
-    color: black;
+.options {
+    .user {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        cursor: pointer;
+
+        img {
+            width: 35px;
+            height: 35px;
+            margin-right: 15px;
+        }
+
+        .name {
+            margin: 0 !important;
+            font-size: 15px;
+            color: #44009c;
+            line-height: 0.5;
+        }
+
+        span {
+            font-size: 11px;
+            color: #868686;
+        }
+
+    }
+
+
+
+}
+
+.user-mat-menu {
+    color: #868686 !important;
+    font-size: 12px;
+}
+
+.user-mat-icon {
+    font-size: 12px;
+    color: #868686;
+    margin-right: 5px;
 }
